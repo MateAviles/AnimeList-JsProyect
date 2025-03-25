@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime List</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container bg-dark p-5 text-white">
+
+    <header class="d-flex justify-content-between align-items-center mb-4">
+        <a href="index.html" class="btn btn-primary">Inicio</a>
+        <h1>AnimeList</h1>
+        <input type="text" class="form-control w-50" id="search" placeholder="NBuscar. . .">
+    </header>
+
+    <section class="mt-4">
+        <h2>Resultados de búsqueda</h2>
+        <div id="anime_list" class="d-flex flex-wrap justify-content-center"></div>
+    </section>
+
+    <section class="User_list mt-4">
+        <h2>Mi Lista de Animes</h2>
+        <div id="user_anime_list" class="d-flex flex-wrap"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script/main.js"></script>
+
+</body>
+</html>
